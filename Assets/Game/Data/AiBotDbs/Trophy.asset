@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a9f5a98acd49729bea3e556c9030d5, type: 3}
+  m_Name: Trophy
+  m_EditorClassIdentifier: 
+  protocolName: trophy
+  botConfigs:
+  - {fileID: 11400000, guid: c32f49bc58cb1c74aa371d4587d1e072, type: 2}
+  - {fileID: 11400000, guid: 7e817eb415193244b89201e96e86e4dc, type: 2}
+  - {fileID: 11400000, guid: 6e40efa0d86b3044d984dfb3cf023ad2, type: 2}
+  - {fileID: 11400000, guid: dd52b56ae1cf9eb408d43013df5215ee, type: 2}
+  - {fileID: 11400000, guid: 3272ab02a7e6e1447b59080a58d3ee68, type: 2}

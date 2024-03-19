@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9704b2121d17414ab14c4dc16c2fbf3b, type: 3}
+  m_Name: GeneralMustacheTargetResultAnimationProvider
+  m_EditorClassIdentifier: 
+  id: a9c5c13aea79a684d954e192683bdc7e
+  Prefab: {fileID: 2024219726088777922, guid: e24b6e4c52f91eb4eb68bf932be87deb, type: 3}

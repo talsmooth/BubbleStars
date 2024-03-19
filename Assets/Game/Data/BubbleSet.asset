@@ -1,0 +1,960 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb65c8e45ccd43cdb4084d8d41755683, type: 3}
+  m_Name: BubbleSet
+  m_EditorClassIdentifier: 
+  Colors:
+  - {r: 1, g: 0.23113209, b: 0.2445425, a: 1}
+  - {r: 0.24857599, g: 0.53512096, b: 0.9245283, a: 1}
+  - {r: 0.3475632, g: 0.9150943, b: 0.16834284, a: 1}
+  - {r: 0.9921569, g: 0.89019614, b: 0.17254902, a: 1}
+  - {r: 0.7960785, g: 0.17254902, b: 0.9058824, a: 1}
+  Bubbles:
+  - Type: 0
+    LaunchType: 1
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 9ac2663a25d7dcc4dbf0a1cc22984b75, type: 3}
+    - {fileID: 4983775763841181923, guid: f0d896bc1896e744bacdab7179cd7e1e, type: 3}
+    - {fileID: 4983775763841181923, guid: 276d2df5db84a83439756b74c7e8432d, type: 3}
+    - {fileID: 4983775763841181923, guid: feb8c60dc06aeda4186b9a3bbfe557ce, type: 3}
+    Effects:
+    - Slot: 1
+      Prefab: {fileID: 3174839851732447335, guid: 5d76bcd008efe3540afe03b3642824fc,
+        type: 3}
+    - Slot: 3
+      Prefab: {fileID: 3174839851732447335, guid: 5d76bcd008efe3540afe03b3642824fc,
+        type: 3}
+    - Slot: 0
+      Prefab: {fileID: 3174839851732447335, guid: 5d76bcd008efe3540afe03b3642824fc,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 01000000060000000300000009000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 9c28032afe35bb546b22cd0593b15be9, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 78a6e4f8d389e91459144b005e80334a, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 2182333262999910639, guid: 2e1fb567ce746b049937e578708414ad,
+      type: 3}
+    BoosterSplineAnimation: {fileID: 7078035353469279607, guid: a11507de7b934054ab691badbb5c6f41,
+      type: 3}
+    InvertDominantColor: 1
+  - Type: 2
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 9c7f0f11efda9204da254bcab1e7bda4, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 3174839851732447335, guid: 2a675d8033ba943f3b5e821bea8c348a,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 0900000005000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: eaf8b7b7ddf4440eaa6595547e36ff2f, type: 3}
+    SimpleName: Fort Bubble
+    Description: Activate the <style=desc-keyword>Fort Bubble</style> twice to destroy
+      it
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 1
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 253ee58f98680e7469bee879e91837b7, type: 3}
+    Effects:
+    - Slot: 2
+      Prefab: {fileID: 7536745475120112756, guid: 4d4d0a3dd8bf24e81a6f220db1644aab,
+        type: 3}
+    - Slot: 1
+      Prefab: {fileID: 3174839851732447335, guid: c252975d84f8c424087af19e947fb70e,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 0800000009000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 4f124625542cdca4aaa5d24e2fbabc1f, type: 3}
+        - {fileID: 8300000, guid: da417f3fcd3990b41852e9347d09ef74, type: 3}
+        - {fileID: 8300000, guid: 559d56c002d7a114288e2a1063b29ddf, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: Bomb
+    Description: Activate the <style=desc-keyword>Bomb</style> to blow things up!
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 3
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: aa51ec473483ba347be3fb93886dcd9a, type: 3}
+    - {fileID: 4983775763841181923, guid: 3ea801dd10f34b7409921b29948fd7ce, type: 3}
+    - {fileID: 4983775763841181923, guid: f7f497f357ac3fd48a021f8e3d0fa31f, type: 3}
+    - {fileID: 4983775763841181923, guid: 7555bd56c392f8c4a91b4e14702ef6e6, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 3174839851732447335, guid: 5d76bcd008efe3540afe03b3642824fc,
+        type: 3}
+    - Slot: 3
+      Prefab: {fileID: 3174839851732447335, guid: 5d76bcd008efe3540afe03b3642824fc,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 0500000009000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 8de6fae0ac5b33c43899ed6c586c3029, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: Bonus Bubble
+    Description: Collect a <style=desc-keyword>Bonus Bubble</style> to get an extra
+      shot!
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 1
+  - Type: 4
+    LaunchType: 3
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 0f58ab5c59738814e8448f440bd6a135, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 7536745475120112756, guid: 59cacdefeca6f44bdac285baa4226971,
+        type: 3}
+    - Slot: 1
+      Prefab: {fileID: 7536745475120112756, guid: 59cacdefeca6f44bdac285baa4226971,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 03000000090000000100000000000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 8d05e1ee8ada34fabb24db7a97036a6f, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 9cf26afa9c2ad43d7a52fc6ddef58089, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: e4a4b308a842440cc841fcf9ff974e9b, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 473991fe9e98b854bb08db796907f9dc, type: 3}
+    SimpleName: Captain Tentacles
+    Description: '<style=desc-keyword>Captain Tentacles</style> jumps over the board
+      and explodes on impact, tossing Bombs that each destroy one Bubble.
+
+
+      <style=desc-small>"Yarr!
+      Where be me booty?!"</style>'
+    IsBooster: 1
+    EditorCategory: Boosters
+    LauncherControllerPrefab: {fileID: 4548042710841021891, guid: 3ccf4f9fb1b63e34aa367398cc5a259d,
+      type: 3}
+    BoosterSplineAnimation: {fileID: 7078035353469279607, guid: 15dbebdbcedb6bf4097f0e2ca0cdf79b,
+      type: 3}
+    InvertDominantColor: 0
+  - Type: 5
+    LaunchType: 3
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: b9319ce7e6d72974880d3c55e6ffc028, type: 3}
+    Effects:
+    - Slot: 1
+      Prefab: {fileID: 7227567214673978145, guid: 78d85cbbeb601e345bda6ec9ab7b2933,
+        type: 3}
+    - Slot: 2
+      Prefab: {fileID: 3623121166929139352, guid: 7b7971a893e49624295f4ea46a4cef34,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 030000000100000000000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 32dc74aac13ca490e9dfbcc1ce046e25, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: e4a4b308a842440cc841fcf9ff974e9b, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 5999d24b0248ef64fbe2760ed7f1b876, type: 3}
+    SimpleName: Queen B
+    Description: '<style=desc-keyword>Queen B</style> flies over a full row, turning
+      all Bubbles into Hives. Hives can be hit to be removed. If any remain after
+      the opponent''s turn, they turn into Jokers!
+
+
+      <style=desc-small>"I shall
+      bestow my royal honey upon thee"</style>'
+    IsBooster: 1
+    EditorCategory: Boosters/QueenB
+    LauncherControllerPrefab: {fileID: 4770785754572704824, guid: 2f27fc8476fe1f3429dd8fde2baf82ea,
+      type: 3}
+    BoosterSplineAnimation: {fileID: 7078035353469279607, guid: 4388dc3683629604889e36b84fdfffbd,
+      type: 3}
+    InvertDominantColor: 0
+  - Type: 6
+    LaunchType: 2
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 68836b2e369e04a169dbc59b591a5cb4, type: 3}
+    Effects:
+    - Slot: 1
+      Prefab: {fileID: 7536745475120112756, guid: 104ae4c08c49a4e7492176e2651182c1,
+        type: 3}
+    - Slot: 0
+      Prefab: {fileID: 6487710412869489694, guid: 3defb12747d6f4edcb6bd2c242ac9a1f,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 030000000500000000000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: e12e66788d4444b1d960be89f2349d98, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 3399487fb83244322a6580c9935b3d2f, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: d42f9c2fd30762248be5850d22359260, type: 3}
+    SimpleName: Gizmo
+    Description: "<style=desc-keyword>Gizmo</style> flies straight through the board,
+      destroying each Bubble he flies through.  \n<style=desc-keyword>Gizmo</style>
+      bounces off of walls and Special Bubbles.\n\n<style=desc-small>\"Ready for
+      takeoff? Heheee, let's light 'em up!!!\"</style>"
+    IsBooster: 1
+    EditorCategory: Boosters
+    LauncherControllerPrefab: {fileID: 2182333262999910639, guid: 2e1fb567ce746b049937e578708414ad,
+      type: 3}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 7
+    LaunchType: 3
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 159e16a29e0f427418647a141c98a13f, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 6487710412869489694, guid: f32e35fce6d79be4ead8eb2fcdcd8d2d,
+        type: 3}
+    - Slot: 1
+      Prefab: {fileID: 7536745475120112756, guid: 322d7a4abd6d84d63909d6dd4fe2a8a4,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 0100000003000000050000000400000000000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: e4a4b308a842440cc841fcf9ff974e9b, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: c062d8cc31e164337bd451f28c2a53a7, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: bec4ecea948f646d69e712c5e8e0b716, type: 3}
+        - {fileID: 8300000, guid: b6d8a1d54956f4132b6ee892dc1ddc01, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: bec4ecea948f646d69e712c5e8e0b716, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 8a96a5f4f0f448b4f80ea3cc647f2ba1, type: 3}
+    SimpleName: SMASH!
+    Description: '<style=desc-keyword>SMASH!</style> jumps over the board. On impact,
+      he starts bouncing in random directions destroying each Bubble he hits!
+
+
+      <style=desc-small>"BUBBLE
+      SMASHING TIME?!"</style>'
+    IsBooster: 1
+    EditorCategory: Boosters
+    LauncherControllerPrefab: {fileID: 4548042710841021891, guid: 3ccf4f9fb1b63e34aa367398cc5a259d,
+      type: 3}
+    BoosterSplineAnimation: {fileID: 7078035353469279607, guid: df011105eab054a519c212978c35d70b,
+      type: 3}
+    InvertDominantColor: 0
+  - Type: 8
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: cde74ff5ecc533d4aba72cd5fb17e703, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 3174839851732447335, guid: c252975d84f8c424087af19e947fb70e,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 0500000009000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: e94bd3aa87d3341e3952b647baba9a61, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: Spikes
+    Description: <style=desc-keyword>Spikes</style> destroy Bubbles that hit them
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 9
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 7bde04499a4cd9c478e58e428d1b3a29, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 0500000009000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 7bcecf15a28aa4c4d8f495355d8edfd1, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: Joker
+    Description: Transforms into any Bubble that activates it
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 10
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: d7a18899476bbbf4bbb07fa9a52b3158, type: 3}
+    - {fileID: 4983775763841181923, guid: 012d7f7e82111bd4ea36cd1e7b9babb1, type: 3}
+    - {fileID: 4983775763841181923, guid: ed4e1095dd083ff47aeb2cb3caa1445c, type: 3}
+    - {fileID: 4983775763841181923, guid: 152c840ccb12ade4ea996c42a6f31a32, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 3174839851732447335, guid: 5d76bcd008efe3540afe03b3642824fc,
+        type: 3}
+    - Slot: 3
+      Prefab: {fileID: 3174839851732447335, guid: 5d76bcd008efe3540afe03b3642824fc,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 09000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: Prism Bubble
+    Description: <style=desc-keyword>Prism Bubble</style> changes color after every
+      move!
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 1
+  - Type: 11
+    LaunchType: 3
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 86196facd2adb4c57aa939ab3d57124f, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 7536745475120112756, guid: 4ebe50198eb6442b682a54b5c1b656b6,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 0900000003000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 71abe71937f144c25bc537003bbed6ca, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 9cf26afa9c2ad43d7a52fc6ddef58089, type: 3}
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: Boosters
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 7078035353469279607, guid: 911492d038f85486285618b9b87b1a8d,
+      type: 3}
+    InvertDominantColor: 0
+  - Type: 12
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 3d4531c1add534e09a6e4fbd146a1699, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 13
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 1c31abc1e73048448835107d90511b61, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 09000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: Spinner Rocket
+    Description: Spins until a shot is made. Activate it to make it fly in the direction
+      it's pointing
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 14
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 69bdaefb0abc90a4b82dbdf86c24e5c4, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 05000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 5ddb629ea1a264b8086b8e39d0095895, type: 3}
+    SimpleName: Special Joker
+    Description: 
+    IsBooster: 0
+    EditorCategory: Boosters/QueenB
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 15
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 5c2a4b2552265cc439e59e26c1ad5c92, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 05000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 5ddb629ea1a264b8086b8e39d0095895, type: 3}
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: Boosters/QueenB
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 16
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: d31d6cf09ff2bd749860c976be88f32a, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 1
+    EditorCategory: Boosters
+    LauncherControllerPrefab: {fileID: 5851400020442790244, guid: db5b89ea7b961ce419df2c8d2fe637d8,
+      type: 3}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 17
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: bb47eaae72e84334485ca5399343ebb3, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: CaptainMustache
+    Description: Hides a stash of bubbles behind his 'stach.
+    IsBooster: 1
+    EditorCategory: Boosters
+    LauncherControllerPrefab: {fileID: 5523723904920818208, guid: 5697911072880434f929eee7753fedfa,
+      type: 3}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 18
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 4589bb7869b831e4dba2ed59c5fcd652, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: _Unused
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 19
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 675015b6b887a4a41baf8c3e467f4da8, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: _Unused
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 20
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: d5322910dbb48904eaa3d69b1ff9807c, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: _Unused
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 21
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 6da2659a61846f243954713469f0bb18, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: _Unused
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 22
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 695487f1ebc10874aa13984ab67b2fae, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: _Unused
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 23
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: eced2e7fc19465f41a7aa0bce16a3022, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 7536745475120112756, guid: 1831fe69a539245ddaebb10cf4386fef,
+        type: 3}
+    - Slot: 1
+      Prefab: {fileID: 7536745475120112756, guid: 1831fe69a539245ddaebb10cf4386fef,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 09000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 7fd6a4782a4547f448534bfb8da129c2, type: 3}
+        - {fileID: 8300000, guid: 2a21890aedaa4204b8a62a233fd5e505, type: 3}
+        - {fileID: 8300000, guid: 746f96eb4db59304686739b71112664d, type: 3}
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 24
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4016536396779310988, guid: fe17e894e8abc0a44a5257dde6758f7d, type: 3}
+    - {fileID: 4016536396779310988, guid: 8bcafa2aa9b28774981ca1be907866a3, type: 3}
+    - {fileID: 4016536396779310988, guid: 38077aa554370974e8382bd03ff1174a, type: 3}
+    - {fileID: 4016536396779310988, guid: 2160d49b471664b43ae8a7a367d851f7, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: _Unused
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 25
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 1c31abc1e73048448835107d90511b61, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 050000000800000009000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 538534c6ab3b1384d8f8d649806a002a, type: 3}
+        - {fileID: 8300000, guid: ff0d54765e48e544a9fa5815ac4ae6d9, type: 3}
+        - {fileID: 8300000, guid: b971477d5fc14c742b3c264e0c820d37, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 890b6e8a6f8d992408bb408bac822297, type: 3}
+        - {fileID: 8300000, guid: af9afd34109b7ee4fbfe240b961fa980, type: 3}
+        - {fileID: 8300000, guid: d4e414a3d5e0ba54db12552427f69e2a, type: 3}
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: Rocket
+    Description: Activate the <style=desc-keyword>Rocket</style> to make it fly in
+      the direction it's pointing
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 26
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 0a8fd6a941505df4c8a23e7cb39d5bd2, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: Twin Rocket
+    Description: Activate the <style=desc-keyword>Twin Rocket</style> to make rockets
+      blast out of both ends
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 27
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 1264204d46583c74ba5c7d39ac96e12b, type: 3}
+    Effects: []
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 
+      valueData: []
+    SimpleName: 
+    Description: 
+    IsBooster: 0
+    EditorCategory: _Unused
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  - Type: 28
+    LaunchType: 0
+    Prefabs:
+    - {fileID: 4983775763841181923, guid: 68f2e07e6dd9eb54091577ea9f90b1b5, type: 3}
+    Effects:
+    - Slot: 0
+      Prefab: {fileID: 3174839851732447335, guid: c252975d84f8c424087af19e947fb70e,
+        type: 3}
+    ScoreEffectIcon: {fileID: 0}
+    Sfx:
+      keyData: 09000000
+      valueData:
+      - Clips:
+        - {fileID: 8300000, guid: 3d928ff8daa72d248b1064056e7172a2, type: 3}
+        - {fileID: 8300000, guid: 8a0e2ce88ca0b914fbca67d927fe7d9d, type: 3}
+        - {fileID: 8300000, guid: b20964ec71f4f90459c80fd2277c08b7, type: 3}
+    SimpleName: Star Power
+    Description: Collect <style=desc-keyword>Star Power</style> to charge up your
+      Starling
+    IsBooster: 0
+    EditorCategory: 
+    LauncherControllerPrefab: {fileID: 0}
+    BoosterSplineAnimation: {fileID: 0}
+    InvertDominantColor: 0
+  BoosterTypeMap:
+    keyData: 0000000001000000020000000300000004000000
+    valueData: 0400000005000000060000000700000010000000
+  Rewards:
+    keyData: 000000000100000002000000
+    valueData:
+    - Prefab: {fileID: 2880952776354990526, guid: 2ded93c5d9db62841a7a986923a45034,
+        type: 3}
+    - Prefab: {fileID: 1274425365220998019, guid: dccec93d1e95c5c48a744894b5e6e9a2,
+        type: 3}
+    - Prefab: {fileID: 1274425365220998019, guid: 7d6dee000e2bbc5439f84d82230eebb6,
+        type: 3}
+  Leagues:
+  - ID: 0F206464D85F4DED
+    IconPrefab: {fileID: 7340382969408460666, guid: d5d76edabcb23eb4283912cf73c9d2ff,
+      type: 3}
+    Name: Iron I
+    Description: 
+  - ID: 37833EC7E22CF925
+    IconPrefab: {fileID: 7340382969408460666, guid: 96732bf49bb5fbd4db19c99b0b92ed52,
+      type: 3}
+    Name: Iron II
+    Description: 
+  - ID: 0250C99056320BF4
+    IconPrefab: {fileID: 7340382969408460666, guid: e73f4f48694e05842bdbd28e985fd24f,
+      type: 3}
+    Name: Iron III
+    Description: 
+  - ID: 32836A0405C3CB56
+    IconPrefab: {fileID: 7340382969408460666, guid: a301551d16c10274bbf90398365d9681,
+      type: 3}
+    Name: Bronze I
+    Description: 
+  - ID: 3FB198E44730C146
+    IconPrefab: {fileID: 7340382969408460666, guid: 60afc22ce71e8644dafb78de6497bae2,
+      type: 3}
+    Name: Bronze II
+    Description: 
+  - ID: 3AE5CFAE806E7F2C
+    IconPrefab: {fileID: 7340382969408460666, guid: b8c4d6953f46b4c42a800cd4e852d0cd,
+      type: 3}
+    Name: Bronze III
+    Description: 
+  - ID: 1A04ECF876C26D8D
+    IconPrefab: {fileID: 7340382969408460666, guid: a2ec9349e4e7a49c39aee35b82bc667b,
+      type: 3}
+    Name: Silver I
+    Description: 
+  - ID: 0A950F997DB909EC
+    IconPrefab: {fileID: 7340382969408460666, guid: abc9744a5d6f8424991dccad87cfc604,
+      type: 3}
+    Name: Silver II
+    Description: 
+  - ID: 2712488B209385ED
+    IconPrefab: {fileID: 7340382969408460666, guid: 58e07ba7b462fdb4eaa891817df3b37e,
+      type: 3}
+    Name: Silver III
+    Description: 
+  - ID: 1E4C02C7A33F8C81
+    IconPrefab: {fileID: 7340382969408460666, guid: 5f29c5f8602ce41658c8a0db2475d0ce,
+      type: 3}
+    Name: Gold I
+    Description: 
+  - ID: gold2
+    IconPrefab: {fileID: 7340382969408460666, guid: 9241fc421247a154d859b56919861153,
+      type: 3}
+    Name: Gold II
+    Description: 
+  - ID: gold3
+    IconPrefab: {fileID: 7340382969408460666, guid: e731714f8c40d774e9c5d83b46d65d5b,
+      type: 3}
+    Name: Gold III
+    Description: 
+  - ID: jade
+    IconPrefab: {fileID: 7340382969408460666, guid: 19d98320d176d3f45b7982a67d8ed9e7,
+      type: 3}
+    Name: Jade I
+    Description: 
+  - ID: jade2
+    IconPrefab: {fileID: 7340382969408460666, guid: da8cffea87c801246a68eccfa72fde68,
+      type: 3}
+    Name: Jade II
+    Description: 
+  - ID: jade3
+    IconPrefab: {fileID: 7340382969408460666, guid: 935ca210d61391f49b72c78bcc76d5ec,
+      type: 3}
+    Name: Jade III
+    Description: 
+  - ID: diamond
+    IconPrefab: {fileID: 7340382969408460666, guid: 5586c47dc2fc609419c3bfd18c0d84ed,
+      type: 3}
+    Name: Diamond I
+    Description: 
+  - ID: diamond2
+    IconPrefab: {fileID: 7340382969408460666, guid: 92bdb9d7abeaf8a48b61c6141323baa9,
+      type: 3}
+    Name: Diamond II
+    Description: 
+  - ID: diamond3
+    IconPrefab: {fileID: 7340382969408460666, guid: 0b302ee9b1e04754f9db18af6119b865,
+      type: 3}
+    Name: Diamond III
+    Description: 
+  - ID: star
+    IconPrefab: {fileID: 7340382969408460666, guid: d35fadbc432a53243a3abdd98c65c09b,
+      type: 3}
+    Name: Star League
+    Description: 
+  ProfilePictures:
+    keyData:
+    - Bomb1
+    - CaptainTentacles
+    - Bomb3
+    - Bomb2
+    - Gizmo
+    - QueenB
+    - Rocket1
+    - Rocket2
+    - Smash
+    - Stars1
+    - Stars2
+    - Stars3
+    - Default
+    valueData:
+    - Sprite: {fileID: 21300000, guid: 84af61436f1064e0584d4657f2ec610a, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 0b00064b8f8d541d7adbba6e6f6e6fae, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 8a38e69bd593a4826a2fcc761d9c503f, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 0ecdcf7bb15484a1cb6c99a32aa161f5, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 3508895acd2c34699a697d7fd86a7516, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 92c242fb46c764eaea6c1073b2c01a4a, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 12db4019f10b6409fbe3a7edb4327f42, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: a3f5e59f3ce134156b0d25336481e68e, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 23a1966e0705b46d0a1f11fd0c91dd21, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 1afa696c660294e15851429981dc49f8, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: a5dd5e558d8c24db08e29b3fef4ecc45, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 5dcb035c0824840e49a6c93a3c8caadb, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: a5dd5e558d8c24db08e29b3fef4ecc45, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+  BotsDatabases:
+  - {fileID: 11400000, guid: 62cf8b7afbcc96f4db9aeef7f346d41e, type: 2}
+  - {fileID: 11400000, guid: 65237394a5bbeaf4084566ce5d60918f, type: 2}
+  Icons:
+    keyData: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+    valueData:
+    - Sprite: {fileID: 21300000, guid: 6013ec77fcea34359a2684fee769c6e3, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 718df1538d44f4cd18c102284ab7f784, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: 8246d1a281caf444f9bcf31f38ea1b39, type: 3}
+      Locked: {fileID: 0}
+      MenuPortrait: {fileID: 0}
+      MenuPortraitLocked: {fileID: 0}
+    - Sprite: {fileID: 21300000, guid: dca57d21c23f04ea0a1d897fd5f9775e, type: 3}
+      Locked: {fileID: 21300000, guid: d26a6a8e778ba4eabb1cf39acec01e4a, type: 3}
+      MenuPortrait: {fileID: 21300000, guid: b8a4a837ec6644684badcc4e2fb06de5, type: 3}
+      MenuPortraitLocked: {fileID: 21300000, guid: 2e513eb40168243529c3e703729ff032,
+        type: 3}
+    - Sprite: {fileID: 21300000, guid: 47bb3a1db7bfe419a9ee8c707e7f54c6, type: 3}
+      Locked: {fileID: 21300000, guid: 32ab933146a104e82aa43aa34c734b0e, type: 3}
+      MenuPortrait: {fileID: 21300000, guid: 5bd712ce9aeab451b9cecdde14535c36, type: 3}
+      MenuPortraitLocked: {fileID: 21300000, guid: 05de1dad89b7740559d18ee1ae03cbf0,
+        type: 3}
+    - Sprite: {fileID: 21300000, guid: a82a61b0339f24cb88798aba62d957d5, type: 3}
+      Locked: {fileID: 21300000, guid: 9f9ed73b662d04de98d8a4deb8093de4, type: 3}
+      MenuPortrait: {fileID: 21300000, guid: b55cd2400125f4c80bfd4b3a8abe2b08, type: 3}
+      MenuPortraitLocked: {fileID: 21300000, guid: 28cc3495fcada4860b631b1579b66a66,
+        type: 3}
+    - Sprite: {fileID: 21300000, guid: 982dadf5b299c4de0b3f3f2bae5aec65, type: 3}
+      Locked: {fileID: 21300000, guid: ffd28136052f94d52885cf0752a320ed, type: 3}
+      MenuPortrait: {fileID: 21300000, guid: 429cae400ac654df09769f7775588744, type: 3}
+      MenuPortraitLocked: {fileID: 21300000, guid: 2cfc36ef0490c45c39bad76ff444b175,
+        type: 3}
+    - Sprite: {fileID: 21300000, guid: 982dadf5b299c4de0b3f3f2bae5aec65, type: 3}
+      Locked: {fileID: 21300000, guid: 429cae400ac654df09769f7775588744, type: 3}
+      MenuPortrait: {fileID: 21300000, guid: 2cfc36ef0490c45c39bad76ff444b175, type: 3}
+      MenuPortraitLocked: {fileID: 21300000, guid: 2cfc36ef0490c45c39bad76ff444b175,
+        type: 3}
+    - Sprite: {fileID: 21300000, guid: 2cfc36ef0490c45c39bad76ff444b175, type: 3}
+      Locked: {fileID: 21300000, guid: 2cfc36ef0490c45c39bad76ff444b175, type: 3}
+      MenuPortrait: {fileID: 21300000, guid: 2cfc36ef0490c45c39bad76ff444b175, type: 3}
+      MenuPortraitLocked: {fileID: 21300000, guid: 2cfc36ef0490c45c39bad76ff444b175,
+        type: 3}
+    - Sprite: {fileID: 21300000, guid: d2c2d906b06654084a9b966449f80ae8, type: 3}
+      Locked: {fileID: 21300000, guid: d2c2d906b06654084a9b966449f80ae8, type: 3}
+      MenuPortrait: {fileID: 21300000, guid: d2c2d906b06654084a9b966449f80ae8, type: 3}
+      MenuPortraitLocked: {fileID: 21300000, guid: d2c2d906b06654084a9b966449f80ae8,
+        type: 3}
+  CoinPackIcons:
+    keyData:
+    - Pack1
+    - Pack2
+    - Pack3
+    - Pack4
+    - Pack5
+    - Pack6
+    valueData:
+    - {fileID: 21300000, guid: fb8c6ca6ca6fb413abb4d954e0af5189, type: 3}
+    - {fileID: 21300000, guid: 2d447022aae4043d681577dd6d854522, type: 3}
+    - {fileID: 21300000, guid: c8e4c723727664b809490a2b1605d682, type: 3}
+    - {fileID: 21300000, guid: 5f2800f4946bd4093922a24938c45742, type: 3}
+    - {fileID: 21300000, guid: 23af5b0dc9d2b42feb634c3abb04c217, type: 3}
+    - {fileID: 21300000, guid: 8d2344a0bf7054f2eb4732d41f3fb1d8, type: 3}
+  DebugLogging: 0

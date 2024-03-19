@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7356393638442135135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1397202909066130577}
+  - component: {fileID: 8357060571458827518}
+  m_Layer: 5
+  m_Name: Masks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1397202909066130577
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356393638442135135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8357060571458827518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356393638442135135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4371aaf40bbd474fa0dc0f6bb660baa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaskPrefabs:
+    serializedKeys: 00000000020000000300000004000000050000000600000007000000080000000a000000090000000b0000000c000000
+    serializedValues:
+    - {fileID: 849311879360198675, guid: eb9f0be5ca16e4a5a92b0dab369fbe54, type: 3}
+    - {fileID: 2703749454271742368, guid: 658c5cb181df84701aa7c003dd98151d, type: 3}
+    - {fileID: 849311879360198675, guid: 7c8236a49023c4b608c13e7925eedbba, type: 3}
+    - {fileID: 2703749454271742368, guid: e7a64ffffa482403bb2106b218e9d7c9, type: 3}
+    - {fileID: 2703749454271742368, guid: a053c5db2e1004bbf9fb8cc145605528, type: 3}
+    - {fileID: 2703749454271742368, guid: d12b1c781028043f4b580abc16f6bc61, type: 3}
+    - {fileID: 2703749454271742368, guid: 36bf95d5780584849af473a3ff441f71, type: 3}
+    - {fileID: 849311879360198675, guid: 7c8236a49023c4b608c13e7925eedbba, type: 3}
+    - {fileID: 2703749454271742368, guid: dc9dca8f5f2ac40c8a6f4fade89a3912, type: 3}
+    - {fileID: 2703749454271742368, guid: 0506fe71e71734f0dbc026b644781d63, type: 3}
+    - {fileID: 2703749454271742368, guid: 3bb965fb735a64bd7aa189c21cd0f024, type: 3}
+    - {fileID: 2703749454271742368, guid: e158dfc488d0a4035bbd7cb08c8934e4, type: 3}

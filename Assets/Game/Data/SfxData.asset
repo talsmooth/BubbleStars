@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 988191e0b82d47348b8efa180cbd4b9b, type: 3}
+  m_Name: SfxData
+  m_EditorClassIdentifier: 
+  Common:
+    UIClick: {fileID: 8300000, guid: 2d1ee822d53f68d42a295d8a861279ed, type: 3}
+    BoosterSelectedInMenu: {fileID: 8300000, guid: 849ae070838d7434793209c112b9b250,
+      type: 3}
+    OpponentFound: {fileID: 8300000, guid: cd344fc6b1b5cea4fa8a019f48765e70, type: 3}
+  Game:
+    Match: {fileID: 8300000, guid: 116bc8807e4e2c841831108e1cc92c67, type: 3}
+    BoosterReady: {fileID: 8300000, guid: 849ae070838d7434793209c112b9b250, type: 3}
+    BoosterFill: {fileID: 8300000, guid: e301b789dc0a741368adbd97f09caa72, type: 3}
+    BoardShift: {fileID: 8300000, guid: 053b621663b32f64ea38a89c0d37d73a, type: 3}
+    TurnSelf: {fileID: 8300000, guid: e86e69970a7ff458bb6a694e2ea33df4, type: 3}
+    TurnOpponent: {fileID: 8300000, guid: 01df26fd50797470794014aa210b91c7, type: 3}
+    TurnEnd: {fileID: 8300000, guid: 7d266005c1fb64d07bc1d3fe63af87b5, type: 3}
+    LastRound: {fileID: 8300000, guid: e8d74ea8d7384b546a7b9a1af9350a47, type: 3}
+    SlingPull: {fileID: 8300000, guid: caa37c91692a143b6b7d1e3550561db9, type: 3}
+    SlingPull2: {fileID: 8300000, guid: 486e009dc65954db89de2331e4ca9624, type: 3}
+    ReticleClick: {fileID: 8300000, guid: 747be17a0bbe34028b9163e9ce9d5b79, type: 3}
+    ReticleDrag: {fileID: 8300000, guid: dbc45ccd0435b4975afc25054a8decd6, type: 3}
+  GameOver:
+    Victory:
+      Effect: {fileID: 8300000, guid: f90e68de68a5c6c4c9ca8dfea6ded2ba, type: 3}
+      Crowd: {fileID: 8300000, guid: 43bc10a09557e9847a4e9daf300223d4, type: 3}
+    Defeat:
+      Effect: {fileID: 8300000, guid: 2a55d7afc59fce743b1fe10e8c307a6e, type: 3}
+      Crowd: {fileID: 8300000, guid: e4444b2962bfe174a92fd79605516d60, type: 3}
+    Draw:
+      Effect: {fileID: 8300000, guid: 2a55d7afc59fce743b1fe10e8c307a6e, type: 3}
+      Crowd: {fileID: 8300000, guid: e4444b2962bfe174a92fd79605516d60, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8faa0b0eb14a00a735aed18acf6560, type: 3}
+  m_Name: SyncedAnimationProvidersConfig
+  m_EditorClassIdentifier: 
+  providers:
+  - {fileID: 11400000, guid: 37dfdae84963f7042a7ac74278a44d01, type: 2}
+  - {fileID: 11400000, guid: 25467cedc882b8b429984d6e00e5e090, type: 2}
+  - {fileID: 11400000, guid: a9c5c13aea79a684d954e192683bdc7e, type: 2}
+  - {fileID: 11400000, guid: d59346b3e813cef45b35a3018e884184, type: 2}
+  - {fileID: 11400000, guid: 15afd6a1e7c75dc4c8bf214f2dbf5034, type: 2}

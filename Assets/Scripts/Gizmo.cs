@@ -91,6 +91,12 @@ public class Gizmo : MonoBehaviour
                 Destroy(tempExplosion,2);
             }
          
+            if (transform.position.y > 4.9f)
+            {
+                Destroy(gameObject);
+
+            }
+
         }
     }
 

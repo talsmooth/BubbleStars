@@ -15,6 +15,7 @@ public class CameraFollow : MonoBehaviour
     public Vector3 defaultPos;
     public Vector3 selectStarPos;
     public Vector3 gamePos;
+    public Vector3 starPos;
 
 
     bool isActivated;
@@ -53,21 +54,18 @@ public class CameraFollow : MonoBehaviour
 
         }
 
-       if (isGamePos)
-        {
-
-
-            transform.position = Vector3.Lerp(transform.position, gamePos, 5 * Time.deltaTime);
-
-
-        }
 
         if (target == null)
         {
-        
+
             transform.position = Vector3.SmoothDamp(transform.position, gamePos, ref velocity, smoothTime);
 
         }
+
+
+   
+
+       
 
         if (isSelectStarPos)
         {
@@ -88,6 +86,10 @@ public class CameraFollow : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, gamePos, 5 * Time.deltaTime);
 
         }
+
+
+
+
     }
 
 
@@ -101,9 +103,12 @@ public class CameraFollow : MonoBehaviour
 
     public void CameraDefaultPos()
     {
+        defaultPos.x = GameManager.starLocation.x;
+        defaultPos.y = GameManager.starLocation.y + 0.6f;
         isSelectStarPos = false;
         isDefaultPos = true;
         isGamePos = false;
+
 
     }
 

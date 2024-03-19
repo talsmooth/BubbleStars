@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public GameObject lobbyUI;
     public GameObject infoUI;
 
+    public static Vector3 starLocation;
+
 
     public Material materialToChange; // Reference to the material you want to change
     public List<Texture2D> textures = new List<Texture2D>(); // List to hold textures
@@ -49,10 +51,12 @@ public class GameManager : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 // Check if the object clicked has the "Major" tag
-                if (hit.collider.CompareTag("Major"))
+                if (hit.collider.CompareTag("Star"))
                 {
-                    InfoUI();
+                    starLocation = hit.collider.transform.position;
+                    Debug.Log(starLocation);
                 }
+
             }
 
         }
